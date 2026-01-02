@@ -1,16 +1,17 @@
 #include <iostream>
-
+using std::cout;
+using std::cin;
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
     int a{0};
     int b{0};
     int sum{0};
-    std::cout << "Enter a number: ";
-    std::cin >> a;
-    std::cout << "Enter b number: :";
-    std::cin >> b;
+    cout << "Enter a number: ";
+    cin >> a;
+    cout << "Enter b number: :";
+    cin >> b;
     sum = a + b;
-    std::cout << "sum = " << sum;
+    cout << "sum = " << sum;
 
 
     return 0;
